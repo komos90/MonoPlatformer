@@ -1,0 +1,16 @@
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Fonts\OpenSans.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Fonts\PressStart2P.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Fonts\Aaargh.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\back.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\splash.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\coin.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\background1.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\player_base.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\beach_tileset.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\shelly_enemy.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\basic_sword.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\hp_bar_fill.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\Content\Images\hp_bar_frame.xnb
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\bin\PSM\IgnoreMe.dll
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\obj\PSM\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Seoras\Projects\Monogame\Platformer\Resources\Resources\obj\PSM\IgnoreMe.dll
