@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Fonts/PressStart2P.spritefont</SourceFile>
+  <SourceTime>2016-08-03T22:50:28.6838198+01:00</SourceTime>
+  <DestFile>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/bin/DesktopGL/Fonts/PressStart2P.xnb</DestFile>
+  <DestTime>2016-08-04T08:46:57.8232106+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2016-03-30T07:36:08+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2016-03-30T07:36:08+01:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

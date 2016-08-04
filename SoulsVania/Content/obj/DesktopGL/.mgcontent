@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/back - Copy.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/back.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/background1.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/barrel.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/basic_sword.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/beach_tileset.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/beach_witch_npc.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/caves_tileset.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/coin.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/grass_tileset.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/hp_bar_fill.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/hp_bar_frame.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/player_base.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/shelly_enemy.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/splash.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/torch.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Fonts/CCRedAlertLAN.spritefont</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Fonts/PressStart2P.spritefont</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/particle1.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Music/back.ogg</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Sfx/pickup.wav</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/dialogue_border.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/beach_witch_profile.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/dialogue_cursor.png</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Sfx/text_noise.wav</File>
+    <File>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/dialogue_continue.png</File>
+  </SourceFiles>
+</SourceFileCollection>
