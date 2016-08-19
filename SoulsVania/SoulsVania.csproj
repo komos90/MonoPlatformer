@@ -45,6 +45,7 @@
     <Compile Include="Src\Fonts.cs" />
     <Compile Include="Src\GameState.cs" />
     <Compile Include="Src\Game\AttackCollider.cs" />
+    <Compile Include="Src\Game\Background.cs" />
     <Compile Include="Src\Game\Camera.cs" />
     <Compile Include="Src\Game\CollisionDetect.cs" />
     <Compile Include="Src\Game\Dimensions.cs" />

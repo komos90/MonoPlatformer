@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Platformer {
-
+﻿namespace Platformer {
 	public class Consts {
-		public const int WindowWidth = 800;
-		public const int WindowHeight = 480;
+		public const int WindowWidth = 1280;
+		public const int WindowHeight = 1024;
 		public const int GameWidth = 800;
 		public const int GameHeight = 480;
 

@@ -1,4 +1,4 @@
-<level width="5120" height="480">
+<level width="1824" height="480">
   <back_tile_layer tileset="beach_tileset" exportMode="XMLCoords" />
   <tile_layer tileset="beach_tileset" exportMode="XMLCoords">
     <tile x="0" y="7" tx="1" ty="0" />
@@ -382,9 +382,6 @@
     <tile x="44" y="1" tx="2" ty="0" />
     <tile x="44" y="2" tx="2" ty="0" />
     <tile x="44" y="3" tx="2" ty="0" />
-    <tile x="44" y="4" tx="2" ty="0" />
-    <tile x="44" y="5" tx="2" ty="0" />
-    <tile x="44" y="6" tx="2" ty="0" />
     <tile x="44" y="7" tx="2" ty="0" />
     <tile x="44" y="8" tx="2" ty="0" />
     <tile x="44" y="9" tx="2" ty="0" />
@@ -397,9 +394,6 @@
     <tile x="45" y="1" tx="2" ty="0" />
     <tile x="45" y="2" tx="2" ty="0" />
     <tile x="45" y="3" tx="2" ty="0" />
-    <tile x="45" y="4" tx="2" ty="0" />
-    <tile x="45" y="5" tx="2" ty="0" />
-    <tile x="45" y="6" tx="2" ty="0" />
     <tile x="45" y="7" tx="2" ty="0" />
     <tile x="45" y="8" tx="2" ty="0" />
     <tile x="45" y="9" tx="2" ty="0" />
@@ -412,9 +406,6 @@
     <tile x="46" y="1" tx="2" ty="0" />
     <tile x="46" y="2" tx="2" ty="0" />
     <tile x="46" y="3" tx="2" ty="0" />
-    <tile x="46" y="4" tx="2" ty="0" />
-    <tile x="46" y="5" tx="2" ty="0" />
-    <tile x="46" y="6" tx="2" ty="0" />
     <tile x="46" y="7" tx="2" ty="0" />
     <tile x="46" y="8" tx="2" ty="0" />
     <tile x="46" y="9" tx="2" ty="0" />
@@ -427,9 +418,6 @@
     <tile x="47" y="1" tx="2" ty="0" />
     <tile x="47" y="2" tx="2" ty="0" />
     <tile x="47" y="3" tx="2" ty="0" />
-    <tile x="47" y="4" tx="2" ty="0" />
-    <tile x="47" y="5" tx="2" ty="0" />
-    <tile x="47" y="6" tx="2" ty="0" />
     <tile x="47" y="7" tx="2" ty="0" />
     <tile x="47" y="8" tx="2" ty="0" />
     <tile x="47" y="9" tx="2" ty="0" />
@@ -442,9 +430,6 @@
     <tile x="48" y="1" tx="2" ty="0" />
     <tile x="48" y="2" tx="2" ty="0" />
     <tile x="48" y="3" tx="2" ty="0" />
-    <tile x="48" y="4" tx="2" ty="0" />
-    <tile x="48" y="5" tx="2" ty="0" />
-    <tile x="48" y="6" tx="2" ty="0" />
     <tile x="48" y="7" tx="2" ty="0" />
     <tile x="48" y="8" tx="2" ty="0" />
     <tile x="48" y="9" tx="2" ty="0" />
@@ -457,9 +442,6 @@
     <tile x="49" y="1" tx="2" ty="0" />
     <tile x="49" y="2" tx="2" ty="0" />
     <tile x="49" y="3" tx="2" ty="0" />
-    <tile x="49" y="4" tx="2" ty="0" />
-    <tile x="49" y="5" tx="2" ty="0" />
-    <tile x="49" y="6" tx="2" ty="0" />
     <tile x="49" y="7" tx="2" ty="0" />
     <tile x="49" y="8" tx="2" ty="0" />
     <tile x="49" y="9" tx="2" ty="0" />
@@ -472,9 +454,6 @@
     <tile x="50" y="1" tx="2" ty="0" />
     <tile x="50" y="2" tx="2" ty="0" />
     <tile x="50" y="3" tx="2" ty="0" />
-    <tile x="50" y="4" tx="2" ty="0" />
-    <tile x="50" y="5" tx="2" ty="0" />
-    <tile x="50" y="6" tx="2" ty="0" />
     <tile x="50" y="7" tx="2" ty="0" />
     <tile x="50" y="8" tx="2" ty="0" />
     <tile x="50" y="9" tx="2" ty="0" />
@@ -487,9 +466,6 @@
     <tile x="51" y="1" tx="2" ty="0" />
     <tile x="51" y="2" tx="2" ty="0" />
     <tile x="51" y="3" tx="2" ty="0" />
-    <tile x="51" y="4" tx="2" ty="0" />
-    <tile x="51" y="5" tx="2" ty="0" />
-    <tile x="51" y="6" tx="2" ty="0" />
     <tile x="51" y="7" tx="2" ty="0" />
     <tile x="51" y="8" tx="2" ty="0" />
     <tile x="51" y="9" tx="2" ty="0" />
@@ -502,9 +478,6 @@
     <tile x="52" y="1" tx="2" ty="0" />
     <tile x="52" y="2" tx="2" ty="0" />
     <tile x="52" y="3" tx="2" ty="0" />
-    <tile x="52" y="4" tx="2" ty="0" />
-    <tile x="52" y="5" tx="2" ty="0" />
-    <tile x="52" y="6" tx="2" ty="0" />
     <tile x="52" y="7" tx="2" ty="0" />
     <tile x="52" y="8" tx="2" ty="0" />
     <tile x="52" y="9" tx="2" ty="0" />
@@ -516,11 +489,6 @@
     <tile x="53" y="0" tx="2" ty="0" />
     <tile x="53" y="1" tx="2" ty="0" />
     <tile x="53" y="2" tx="2" ty="0" />
-    <tile x="53" y="3" tx="2" ty="0" />
-    <tile x="53" y="4" tx="2" ty="0" />
-    <tile x="53" y="5" tx="2" ty="0" />
-    <tile x="53" y="6" tx="2" ty="0" />
-    <tile x="53" y="7" tx="2" ty="0" />
     <tile x="53" y="8" tx="2" ty="0" />
     <tile x="53" y="9" tx="2" ty="0" />
     <tile x="53" y="10" tx="2" ty="0" />
@@ -530,12 +498,6 @@
     <tile x="53" y="14" tx="2" ty="0" />
     <tile x="54" y="0" tx="2" ty="0" />
     <tile x="54" y="1" tx="2" ty="0" />
-    <tile x="54" y="2" tx="2" ty="0" />
-    <tile x="54" y="3" tx="2" ty="0" />
-    <tile x="54" y="4" tx="2" ty="0" />
-    <tile x="54" y="5" tx="2" ty="0" />
-    <tile x="54" y="6" tx="2" ty="0" />
-    <tile x="54" y="7" tx="2" ty="0" />
     <tile x="54" y="8" tx="2" ty="0" />
     <tile x="54" y="9" tx="2" ty="0" />
     <tile x="54" y="10" tx="2" ty="0" />
@@ -544,30 +506,12 @@
     <tile x="54" y="13" tx="2" ty="0" />
     <tile x="54" y="14" tx="2" ty="0" />
     <tile x="55" y="0" tx="2" ty="0" />
-    <tile x="55" y="1" tx="2" ty="0" />
-    <tile x="55" y="2" tx="2" ty="0" />
-    <tile x="55" y="3" tx="2" ty="0" />
-    <tile x="55" y="4" tx="2" ty="0" />
-    <tile x="55" y="5" tx="2" ty="0" />
-    <tile x="55" y="6" tx="2" ty="0" />
-    <tile x="55" y="7" tx="2" ty="0" />
-    <tile x="55" y="8" tx="2" ty="0" />
     <tile x="55" y="9" tx="2" ty="0" />
     <tile x="55" y="10" tx="2" ty="0" />
     <tile x="55" y="11" tx="2" ty="0" />
     <tile x="55" y="12" tx="2" ty="0" />
     <tile x="55" y="13" tx="2" ty="0" />
     <tile x="55" y="14" tx="2" ty="0" />
-    <tile x="56" y="0" tx="2" ty="0" />
-    <tile x="56" y="1" tx="2" ty="0" />
-    <tile x="56" y="2" tx="2" ty="0" />
-    <tile x="56" y="3" tx="2" ty="0" />
-    <tile x="56" y="4" tx="2" ty="0" />
-    <tile x="56" y="5" tx="2" ty="0" />
-    <tile x="56" y="6" tx="2" ty="0" />
-    <tile x="56" y="7" tx="2" ty="0" />
-    <tile x="56" y="8" tx="2" ty="0" />
-    <tile x="56" y="9" tx="2" ty="0" />
     <tile x="56" y="10" tx="2" ty="0" />
     <tile x="56" y="11" tx="2" ty="0" />
     <tile x="56" y="12" tx="2" ty="0" />
@@ -581,4 +525,86 @@
     <ShellyEnemy id="3" x="1184" y="192" patrolPt1="1120" patrolPt2="1248" />
     <BeachWitchNpc id="4" x="1344" y="160" />
   </entities>
+  <func_tile_layer tileset="func_tileset" exportMode="XML">
+    <tile x="4" y="7" id="0" />
+    <tile x="4" y="8" id="0" />
+    <tile x="4" y="9" id="0" />
+    <tile x="4" y="10" id="0" />
+    <tile x="5" y="7" id="0" />
+    <tile x="5" y="11" id="0" />
+    <tile x="5" y="12" id="0" />
+    <tile x="5" y="13" id="0" />
+    <tile x="5" y="14" id="0" />
+    <tile x="6" y="7" id="0" />
+    <tile x="7" y="7" id="0" />
+    <tile x="8" y="7" id="0" />
+    <tile x="9" y="7" id="0" />
+    <tile x="10" y="7" id="0" />
+    <tile x="11" y="7" id="0" />
+    <tile x="12" y="7" id="0" />
+    <tile x="13" y="7" id="0" />
+    <tile x="14" y="7" id="0" />
+    <tile x="15" y="7" id="0" />
+    <tile x="16" y="7" id="0" />
+    <tile x="17" y="7" id="0" />
+    <tile x="18" y="7" id="0" />
+    <tile x="19" y="7" id="0" />
+    <tile x="20" y="7" id="0" />
+    <tile x="21" y="7" id="0" />
+    <tile x="22" y="7" id="0" />
+    <tile x="23" y="7" id="0" />
+    <tile x="24" y="7" id="0" />
+    <tile x="25" y="6" id="0" />
+    <tile x="26" y="6" id="0" />
+    <tile x="27" y="6" id="0" />
+    <tile x="28" y="7" id="0" />
+    <tile x="29" y="7" id="0" />
+    <tile x="30" y="7" id="0" />
+    <tile x="31" y="6" id="0" />
+    <tile x="32" y="6" id="0" />
+    <tile x="33" y="6" id="0" />
+    <tile x="34" y="6" id="0" />
+    <tile x="35" y="7" id="0" />
+    <tile x="36" y="7" id="0" />
+    <tile x="37" y="7" id="0" />
+    <tile x="38" y="7" id="0" />
+    <tile x="39" y="7" id="0" />
+    <tile x="40" y="0" id="0" />
+    <tile x="40" y="1" id="0" />
+    <tile x="40" y="2" id="0" />
+    <tile x="40" y="3" id="0" />
+    <tile x="40" y="7" id="0" />
+    <tile x="41" y="3" id="0" />
+    <tile x="41" y="7" id="0" />
+    <tile x="42" y="3" id="0" />
+    <tile x="42" y="7" id="0" />
+    <tile x="43" y="3" id="0" />
+    <tile x="43" y="7" id="0" />
+    <tile x="44" y="3" id="0" />
+    <tile x="44" y="7" id="0" />
+    <tile x="45" y="3" id="0" />
+    <tile x="45" y="7" id="0" />
+    <tile x="46" y="3" id="0" />
+    <tile x="46" y="7" id="0" />
+    <tile x="47" y="3" id="0" />
+    <tile x="47" y="7" id="0" />
+    <tile x="48" y="3" id="0" />
+    <tile x="48" y="7" id="0" />
+    <tile x="49" y="3" id="0" />
+    <tile x="49" y="7" id="0" />
+    <tile x="50" y="3" id="0" />
+    <tile x="50" y="7" id="0" />
+    <tile x="51" y="3" id="0" />
+    <tile x="51" y="7" id="0" />
+    <tile x="52" y="3" id="0" />
+    <tile x="52" y="7" id="0" />
+    <tile x="53" y="2" id="0" />
+    <tile x="53" y="8" id="0" />
+    <tile x="54" y="1" id="0" />
+    <tile x="54" y="8" id="0" />
+    <tile x="55" y="0" id="0" />
+    <tile x="55" y="9" id="0" />
+    <tile x="56" y="10" id="0" />
+  </func_tile_layer>
+  <fore_tile_layer tileset="beach_tileset" exportMode="XMLCoords" />
 </level>

@@ -1,0 +1,10 @@
+<root>
+  <offset x="0" y="0" />
+  <backgrounds>
+    <background image="beach_para1" xrate="-0.5" yrate="0" xoff="0" yoff="-0.25" xloops="true" yloops="false" />
+    <background image="beach_para2" xrate="-0.7" yrate="-0.8"  xoff="0" yoff="0.1" xloops="true" yloops="false" />
+  </backgrounds>
+  <foregrounds>
+    <background image="beach_mist" xrate="-0.2" yrate="-1" xoff="0" yoff="0" xloops="true" yloops="true" />
+  </foregrounds>
+</root>

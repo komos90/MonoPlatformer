@@ -22,7 +22,7 @@ namespace Platformer {
         public LocationText(string text) {
             Alive = true;
             Text = text;
-            Offset = new Vector2(Consts.WindowWidth / 2, Consts.WindowHeight / 3);
+            Offset = new Vector2(Consts.GameWidth / 2, Consts.GameHeight / 3);
             baseY = Offset.Y;
             yLerp = new Lerp();
             yLerp.Add(baseY, baseY + riseAmount, 2.0f, Lerp.Linear);

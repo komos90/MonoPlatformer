@@ -10,11 +10,11 @@ namespace Platformer {
         private Dictionary<int, Dialogue.ResponseFunc> responses;
 
         private static void chooseToSaveTheWorld(World world) {
-            world.DialogueBox = new Dialogue("The world thanks you <3<b>", Images.BeachWitchProfile);
+            world.DialogueBox = new Dialogue("The world thanks you <3<b>", Images.GetImage("beach_witch_profile"));
             var p = world.player;
             for(int i = 0; i < 10; i++) {
                 world.AddParticle(new Particle(
-                    Images.Particle1,
+                    Images.GetImage("particle1"),
                     p.Pos + new Vector2(p.SpriteSheet.SpriteWidth / 2, p.SpriteSheet.SpriteHeight / 2) + new Vector2(((float)((world.rand.NextDouble() - 0.5) * 2.0)) * p.SpriteSheet.SpriteWidth / 2, ((float)((world.rand.NextDouble() - 0.5) * 2.0)) * p.SpriteSheet.SpriteHeight / 2),
                     new Vector2((float)((world.rand.NextDouble() - 0.5) * 10.0), (float)((world.rand.NextDouble() - 0.5) * 10.0)),
                     0.0f,
@@ -27,7 +27,7 @@ namespace Platformer {
         }
 
         private static void chooseToRunHome(World world) {
-            world.DialogueBox = new Dialogue("*Sob* *Sniffle*<b>", Images.BeachWitchProfile);
+            world.DialogueBox = new Dialogue("*Sob* *Sniffle*<b>", Images.GetImage("beach_witch_profile"));
         }
 
         public BeachWitchNpc(World world, Sprite sprite):
@@ -44,7 +44,7 @@ namespace Platformer {
     }
 
         public override void Interact() {
-            world.DialogueBox = new Dialogue("It's strange to see another in this place.<b>Washed ashore were you?<b>Might have been better to drown<b>Not that you'd listen to me<b>Hello World! :)<b>Another Line <b><0>Save the World? <b><1>Go home? <b>", Images.BeachWitchProfile, responses);
+            world.DialogueBox = new Dialogue("It's strange to see another in this place.<b>Washed ashore were you?<b>Might have been better to drown<b>Not that you'd listen to me<b>Hello World! :)<b>Another Line <b><0>Save the World? <b><1>Go home? <b>", Images.GetImage("beach_witch_profile"), responses);
         }
     }
 }

@@ -52,7 +52,7 @@ namespace Platformer {
             }
         }
 
-        public void Draw(Camera camera, SpriteBatch spriteBatch, GraphicsDevice graphicsDevice) {
+        public void Draw(Camera camera, SpriteBatch spriteBatch) {
             if (SpriteSheet == null) { return; }
 
             int srcX = 0;

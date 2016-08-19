@@ -10,7 +10,7 @@ namespace Platformer {
 
 	public class Coin : Entity {
 		public Coin(World world) :
-			base(world, new Sprite(Images.Coin, 8, 8, Consts.CoinAnimFrameLength))
+			base(world, new Sprite(Images.GetImage("coin"), 8, 8, Consts.CoinAnimFrameLength))
 		{
 			GravityAccn = 0.0f;
 			SpriteOffset = new Point(0, 0);

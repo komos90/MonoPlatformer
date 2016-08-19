@@ -25,15 +25,17 @@ namespace Platformer {
 		private int jumpFrameCount = 0;
 
 		public Player(World world) :
-			base(world, new Sprite(Images.Player, 64, 64, Consts.PlayerAnimFrameLength))
+			base(world, new Sprite(Images.GetImage("player"), 64, 64, Consts.PlayerAnimFrameLength))
         {
             unequipedItems = new List<Item>();
             itemSlots = new Item[5];
 			GravityAccn = 0.2F;
 			SpriteOffset = new Point(-10, -8); 
-			Dims = new Dimensions(32, 58);
-            Stats.Set("n_total_health", "2.0");
-		}
+			Dims = new Dimensions(32, 52);
+            Stats.Set("s_team", "good");
+            Stats.Set("n_total_health", "100.0");
+            Stats.Set("n_health", "100.0");
+        }
 
 		override public void Kill() {
 

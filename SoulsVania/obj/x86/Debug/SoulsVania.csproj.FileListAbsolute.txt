@@ -4,7 +4,6 @@ C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Con
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Fonts\PressStart2P.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Fonts\PressStartP2.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\back - Copy.xnb
-C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\back.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\background1.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\barrel.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\basic_sword.xnb
@@ -18,7 +17,6 @@ C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Con
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\hp_bar_fill.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\hp_bar_frame.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\particle1.xnb
-C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\player_base.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\shelly_enemy.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\splash.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\torch.xnb
@@ -38,3 +36,15 @@ C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\obj\x86\Debug\SoulsVania.cs
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\dialogue_cursor.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Sfx\text_noise.xnb
 C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\dialogue_continue.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\beach_para1.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\beach_para2.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\menu_back.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\player.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\beach_mist.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\herb_pouch.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\particle2.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Images\func_tileset.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Music\caves_back.ogg
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Music\caves_back.xnb
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Music\college_back.ogg
+C:\Users\Seoras\My Projects\C#\SoulsVania\SoulsVania\bin\DesktopGL\x86\Debug\Content\Music\college_back.xnb

@@ -3,9 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 //using Microsoft.Xna.Framework.GamerServices;
 
 namespace Platformer {
-	
 	public class Main : Game {
-
 		public GraphicsDeviceManager Graphics { get; private set; }
 		public SpriteBatch SpriteBatch { get; private set; }
 		private RenderTarget2D renderTarget;
@@ -29,14 +27,15 @@ namespace Platformer {
 		}
 
 		protected override void Initialize() {
-			renderTarget = new RenderTarget2D(GraphicsDevice, Consts.GameWidth, Consts.GameHeight);
+			renderTarget = new RenderTarget2D(GraphicsDevice, Consts.GameWidth, Consts.GameHeight, false, GraphicsDevice.PresentationParameters.BackBufferFormat, DepthFormat.Depth24Stencil8);
 			CurrentGameState = new SplashState(this);
 
 			Graphics.PreferredBackBufferWidth = Consts.WindowWidth;
 			Graphics.PreferredBackBufferHeight = Consts.WindowHeight;
             //NEED THIS IF I WANT SCALE!
-			//Graphics.GraphicsDevice.SetRenderTarget(renderTarget);
-			Graphics.ApplyChanges();
+            Graphics.GraphicsDevice.SetRenderTarget(renderTarget);
+            Graphics.ToggleFullScreen();
+            Graphics.IsFullScreen = true;
             Renderer = new Renderer(Graphics.GraphicsDevice);
             Window.Title = "--- The Legend of Al ---";
 
@@ -72,6 +71,16 @@ namespace Platformer {
 		protected override void Draw(GameTime gameTime) {
             GraphicsDevice.Clear(Color.BlueViolet);
             CurrentGameState.Render(gameTime);
+
+            Graphics.GraphicsDevice.SetRenderTarget(null);
+            GraphicsDevice.Clear(Color.Black);
+            SpriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend,
+                        SamplerState.LinearClamp, DepthStencilState.Default,
+                        RasterizerState.CullNone);
+            SpriteBatch.Draw(renderTarget, new Rectangle(0, 0, Consts.WindowWidth, Consts.WindowHeight), Color.White);
+            SpriteBatch.End();
+            Graphics.GraphicsDevice.SetRenderTarget(renderTarget);
+
             base.Draw(gameTime);
 		}
 	}

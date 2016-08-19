@@ -33,7 +33,7 @@ namespace Platformer {
             //TEMP Particle source
             if (world.rand.NextDouble() < 0.2) {
                 world.AddParticle(new Particle(
-                    Images.Particle1,
+                    Images.GetImage("particle1"),
                     Pos + new Vector2(SpriteSheet.SpriteWidth / 2, SpriteSheet.SpriteHeight / 2) + new Vector2( ((float)((world.rand.NextDouble() - 0.5) * 2.0)) * SpriteSheet.SpriteWidth / 2, ((float)((world.rand.NextDouble() - 0.5) * 2.0)) * SpriteSheet.SpriteHeight / 2), 
                     new Vector2((float)((world.rand.NextDouble() - 0.5) * 10.0), (float)((world.rand.NextDouble() - 0.5) * 10.0)),
                     0.0f,

@@ -11,15 +11,20 @@ namespace Platformer {
         private int currentPatrolPt = 0;
         private float patrolPtNearDelta = 10.0f;
         private float maxVel = 2;
+        private StatBlock attackStats;
 
         public ShellyEnemy(World world, Vector2 patrolPt1, Vector2 patrolPt2):
-            base(world, new Sprite(Images.ShellyEnemy, 32, 32, Consts.PlayerAnimFrameLength))
+            base(world, new Sprite(Images.GetImage("shelly_enemy"), 32, 32, Consts.PlayerAnimFrameLength))
         {
             Stats.Set("s_team", "evil");
             this.patrolPts = new Vector2[2];
             patrolPts[0] = patrolPt1;
             patrolPts[1] = patrolPt2;
             Dims = new Dimensions(32, 32);
+            attackStats = new StatBlock(new Dictionary<string, string> {
+                {"s_team", "good"},
+                {"n_phy_dmg", "5.0"}
+            });
         }
 
         public void Move(Direction dir) {
@@ -55,6 +60,7 @@ namespace Platformer {
                 Vector2 smack = Vector2.Normalize(other.Pos - Pos) * 8.0f;
                 other.Smack(smack);
                 other.SpriteSheet.FlashSprite(1, 0.002f, Color.Red);
+                other.DoDamage(attackStats);
             }
         }
     }

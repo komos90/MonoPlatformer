@@ -195,9 +195,9 @@ namespace Platformer {
                 spriteBatch.DrawString(Fonts.OpenSans, line, new Vector2(posDims.X + textXOffset + extraOffset, posDims.Y + 24 + (i - currentLine) * 24), stringColour);
             }
             if (fullLinesDisplayed == actualLines && isQuestion) {
-                spriteBatch.Draw(Images.DialogueCursor, new Vector2(posDims.X + textXOffset, posDims.Y + 24 + (optionPointer) * 24), stringColour);
+                spriteBatch.Draw(Images.GetImage("dialogue_cursor"), new Vector2(posDims.X + textXOffset, posDims.Y + 24 + (optionPointer) * 24), stringColour);
             } else if (fullLinesDisplayed == totalLines) {
-                spriteBatch.Draw(Images.DialogueContinue, new Vector2(posDims.X + posDims.Width - 32, posDims.Y + posDims.Height - 32 + continueYOffset), stringColour);
+                spriteBatch.Draw(Images.GetImage("dialogue_continue"), new Vector2(posDims.X + posDims.Width - 32, posDims.Y + posDims.Height - 32 + continueYOffset), stringColour);
             }
             int tW = posDims.Width / 16;
             int tH = posDims.Height / 16;
@@ -219,7 +219,7 @@ namespace Platformer {
                         srcRect.X = 8;
                     }
                     if (srcRect.X != 8 || srcRect.Y != 8) {
-                        spriteBatch.Draw(Images.DialogueBorder, new Rectangle(posDims.X + j * 16, posDims.Y + i * 16, 16, 16), srcRect, borderColour);
+                        spriteBatch.Draw(Images.GetImage("dialogue_border"), new Rectangle(posDims.X + j * 16, posDims.Y + i * 16, 16, 16), srcRect, borderColour);
                     }
                 }
             }

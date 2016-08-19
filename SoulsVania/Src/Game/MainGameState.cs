@@ -36,8 +36,9 @@ namespace Platformer {
 
 			currentLevel = 1;
 
-			world = new World(new TileSpriteSheet(Images.TileSpriteSheet));
-            player = world.LoadLevel("../../../../Data/the_level.oel");
+			world = new World(new TileSpriteSheet(Images.GetImage("beach_tileset")));
+            player = world.LoadLevel("../../../../Data/the_level");
+            world.LoadLevel("../../../../Data/caves");
             camera = new Camera(player);
             renderer = game.Renderer;
 
@@ -82,28 +83,12 @@ namespace Platformer {
             locationText.Update(gameTime);
 		}
 
-		public override void Render(GameTime gameTime) { 			
-			//Render backgrounds
-			//ToDo get backgrounds from level file
-			renderer.RenderBackground(Images.Background1, game.SpriteBatch);
+		public override void Render(GameTime gameTime) {
+            //Render backgrounds
+            //ToDo get backgrounds from level file
+            //renderer.RenderBackground(Images.Background1, game.SpriteBatch);
+            world.Draw(game.SpriteBatch, camera, renderer);
 
-			{ // DrawEachTile()
-				var i = world.Tiles.GetEnumerator();
-				while (i.MoveNext()) {
-					KeyValuePair<Point, Tile> curTile = i.Current;
-					renderer.RenderTile(curTile.Key, curTile.Value, camera, world.TileSpriteSheet, game.SpriteBatch);
-				}
-			}
-			{ // DrawEachEntity()
-				foreach (Entity entity in world.Entities) {
-					renderer.RenderEntity(entity, camera, game.SpriteBatch);
-				}		
-			}
-            { // DrawEachParticle()
-                foreach (Particle particle in world.Particles) {
-                    particle.Draw(camera, game.SpriteBatch, game.GraphicsDevice);
-                }
-            }
             {// Draw locationText
                 renderer.RenderLocationText(locationText, game.SpriteBatch);
             }

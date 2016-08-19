@@ -96,7 +96,7 @@ namespace Platformer {
             }
             if (Convert.ToSingle(Stats.Get("n_health")) < 0.0) {
                 SpriteSheet.FlashSprite(5);
-                //Kill();
+                Kill();
             }
         }
 
@@ -113,6 +113,44 @@ namespace Platformer {
             //if (!isOnGround) { Vel *= Drag; }
             SpriteSheet.Update(gameTime);
         }
+
+        public void Draw(Camera camera, SpriteBatch spriteBatch, Renderer renderer) {
+            if (SpriteSheet == null) { return; }
+            if (SpriteSheet.Invisible == true) { return; }
+            int destX = (int)(Pos.X - camera.getPos().X);
+            int destY = (int)(Pos.Y - camera.getPos().Y);
+            var sprite = SpriteSheet;
+            int destW = sprite.SpriteWidth;
+            int destH = sprite.SpriteHeight;
+
+            int srcX = sprite.ClipXIndex * sprite.SpriteWidth;
+            int srcY = sprite.ClipYIndex * sprite.SpriteHeight;
+            int srcW = sprite.SpriteWidth;
+            int srcH = sprite.SpriteHeight;
+
+            // Clear stencil buffer
+            renderer.graphicsDevice.Clear(ClearOptions.Stencil, Color.Black, 0f, 0);
+
+            // Draw your sprites using the structures above
+            Color tintColour = SpriteSheet.IsFlashTint ? SpriteSheet.FlashColor : Color.White;
+            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.PointClamp, renderer.beforeDepthStencilState, RasterizerState.CullCounterClockwise, renderer.alphaTestEffect, renderer.spriteScale);
+            spriteBatch.Draw(sprite.SpriteSheet, new Rectangle(destX + SpriteOffset.X, destY + SpriteOffset.Y, destW, destH), new Rectangle(srcX, srcY, srcW, srcH), Color.Black);
+            spriteBatch.End();
+
+            // Draw a full screen white quad with the structure above
+            if (sprite.IsFlashed && !sprite.IsFlashTint) {
+                spriteBatch.Begin(SpriteSortMode.Deferred, null, null, renderer.afterDepthStencilState, null);
+                spriteBatch.Draw(renderer.pixel, renderer.graphicsDevice.Viewport.Bounds, sprite.FlashColor);
+                spriteBatch.End();
+            }
+
+            if (Consts.DEBUG_MODE) {
+                spriteBatch.Begin();
+                spriteBatch.Draw(Images.DebugRect, new Rectangle(destX, destY, Dims.Width, Dims.Height), null, Color.Red);
+                spriteBatch.End();
+            }
+        }
+
         public virtual void CollisionWith(Entity other) {
 
         }

@@ -1,0 +1,8 @@
+<root>
+  <back_tile_layer tileset="caves_tileset" exportMode="XMLCoords" />
+  <offset x="57" y="0" />
+  <backgrounds>
+  </backgrounds>
+  <foregrounds>
+  </foregrounds>
+</root>
