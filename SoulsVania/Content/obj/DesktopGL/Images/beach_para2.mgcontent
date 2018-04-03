@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/beach_para2.png</SourceFile>
-  <SourceTime>2016-08-10T10:38:47.3853362+01:00</SourceTime>
-  <DestFile>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/bin/DesktopGL/Images/beach_para2.xnb</DestFile>
-  <DestTime>2016-08-10T10:38:53.9503321+01:00</DestTime>
+  <SourceFile>C:/Users/Seoras/Projects/Monogame/Platformer/SoulsVania/Content/Images/beach_para2.png</SourceFile>
+  <SourceTime>2016-08-19T16:23:39.569202+01:00</SourceTime>
+  <DestFile>C:/Users/Seoras/Projects/Monogame/Platformer/SoulsVania/Content/bin/DesktopGL/Images/beach_para2.xnb</DestFile>
+  <DestTime>2016-10-31T14:43:00.1924851+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T07:36:08+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

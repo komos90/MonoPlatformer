@@ -63,8 +63,8 @@ namespace Platformer {
 			CurrentGameState.Update(gameTime);
 			base.Update(gameTime);
 
-			if (this.shouldExit) {
-				Exit();
+			if (shouldExit) {
+				//Exit();
 			}
 		}
 

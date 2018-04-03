@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/Images/caves_tileset.png</SourceFile>
-  <SourceTime>2016-08-17T15:24:47.2804707+01:00</SourceTime>
-  <DestFile>C:/Users/Seoras/My Projects/C#/SoulsVania/SoulsVania/Content/bin/DesktopGL/Images/caves_tileset.xnb</DestFile>
-  <DestTime>2016-08-17T15:31:21.6821424+01:00</DestTime>
+  <SourceFile>C:/Users/Seoras/Projects/Monogame/Platformer/SoulsVania/Content/Images/caves_tileset.png</SourceFile>
+  <SourceTime>2016-08-23T15:28:40.4627322+01:00</SourceTime>
+  <DestFile>C:/Users/Seoras/Projects/Monogame/Platformer/SoulsVania/Content/bin/DesktopGL/Images/caves_tileset.xnb</DestFile>
+  <DestTime>2016-10-31T14:42:53.3390931+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T07:36:08+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
